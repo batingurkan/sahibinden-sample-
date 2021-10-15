@@ -1,19 +1,75 @@
+.header-container {
+    width: 100%;
+    background: #3f475f;
+
+}
+
+.header-container .header {
+    width: 1200px;
+    height: 58px;
+    font-size: 12px;
+    margin: auto;
+}
+
+.header-container .header #logo{
+    margin-top: 12px;
+    width: 160px;
+    height: 34px;
+    background-image: url('../img/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color:transparent;
+    margin-right: 117px;
+}
+.header-container .header #search-container{
+    float:left;
+}
+
+.header-container .header #search-container input{
+    width: 243px;
+    height: 34px;
+    float: left;
+    padding-left: 7px;
+    padding-right: 40px;
+    margin-top: 11px;
+    background: #2f3546;
+    font-size: 11px;
+    border: 0;
+    border-radius:3px;
+    color:white;
+    float:left
+}
+
+.header-container .header #search-container button{
+    float:left;
+ 
+    margin-top: 11px;
+    margin-left: -40px;
+    background-color: transparent;
+    border:0px;
+    width: 34px;
+    height: 36px;
+    background-image: url('../img/search.png');
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    background-color: #2f3546;
+
+}
+
 .body-container {
     width: 1200px;
     height: 1000px;
     margin: auto;
     text-align: center;
-
+    border: 1px solid gray
 }
 
-.header-container {
-    width: 100%;
-    height: 50px;
-    background: #3f475f;
-
-}
-
-.nav-container {
+.body-container .nav-container {
     width: 30%;
     height: 80%;
     float: left;
@@ -21,7 +77,7 @@
 
 }
 
-.right-container {
+.body-container .right-container {
     width: 70%;
     height: 80%;
     float: left;
