@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+    <script src="js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="header">
+
+
+        </div>
+    </div>
+
+
+    <div class="body-container">
+
+        <div class="nav-container">
+            Navbar
+
+        </div>
+        <div class="right-container">
+            <div id="vitrin" class="vitrin">
+
+
+                <div id="vitrin-item" class="vitrin-item">
+                    <a href="#">
+
+                        <div class="vitrin-resim"></div>
+                        <span>Bu bir test ilanıdır</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+     
+
+    </div>
+
+
+    <script>
+        for (var index = 0; index < 50; index++) {
+            $("#vitrin-item").clone().appendTo(".vitrin");
+        }
+    </script>
+</body>
+
+</html>
